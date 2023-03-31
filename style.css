@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+background-color: #1d1d1d;
+height: 100px;
+display: flex;
+justify-content: space-between;
+
+}
+.header_left_logo{
+    padding-top: 20px;
+    width: 200px;
+    height: 60px;
+}
+.header_right{
+    display: flex;
+    width: 250px;
+    padding-top: 30px;
+    padding-right: 10px;
+    border-left: 0.2px solid grey;
+}
+.header_right_icon1{
+    width: 200px;
+    height: 100%;
+    padding-left: 10px;
+    background-color:#1d1d1d;
+}
+.header_right_icon2{
+    width: 200px;
+    height: 100%;
+    background-color:#1d1d1d;
+}
+.header_right_icon3{
+    width: 200px;
+    height: 100%;
+    background-color:#1d1d1d;
+}
+.header_right_icon4{
+    width: 200px;
+    height: 100%;
+    background-color:#1d1d1d;
+   
+    
+}
+#icon{
+    color: white;
+    font-size: 20px;
+    
+}
+#icon_container{
+    
+    height: 30px;
+    
+}
+    
+    
+
+#icon:hover{
+    color: #75b400;
+}
+
+.navbar{
+    background-color:  #75b400;
+    height: 100px;
+}
+.navbar_container{
+  display: table-row;
+  
+  
+}
+
+ul>li{
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+    
+}
+ul>li:hover{
+    color: black;
+}
+
+.input{
+    background-color: white;
+    border: white;
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top:15px;
+    margin-left:20px;
+}
+
+.products{
+    background-color: #101010;
+    
+  
+}
+.products_sales{text-align: center;
+padding-top: 50px;}
+.products_container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.product_about{
+padding-left: 20px;
+}
+.sales{
+    color: white;
+}
+
+.product_1{
+    width: 265px;
+    height: 360px;
+    background-color:#101010;
+    margin: 30px;
+    cursor: pointer;
+}
+.product_1_img{
+   
+    background-image: url(/02_G_18_L.png);
+    
+}
+.product_2_img{
+   
+    background-image: url(/02_G_18_L.png);
+    
+}
+.product_3_img{
+   
+    background-image: url(/02_G_18_L.png);
+    
+}
+.product_4_img{
+   
+    background-image: url(/555008f7073bd9f494a8ba367834e01c.png);
+    
+}
+.product_5_img{
+   
+    background-image: url(/61WMqOicPOL._AC_SL1200_\ копия.png);
+    
+}
+.product_6_img{
+   
+    background-image: url(/notebook-alienware-m17-r5-gallery-3\ \(1\).png);
+    
+}
+.product_7_img{
+   
+    background-image: url(/555008f7073bd9f494a8ba367834e01c.png);
+    
+}
+.product_8_img{
+   
+    background-image: url(/02_G_18_L.png );
+    
+}
+.product_9_img{
+   
+    background-image: url(/1024\ \(46\)\ \(1\).png);
+    
+}
+.product_10_img{
+   
+    background-image: url(/2022\ ASUS\ TUF\ Dash\ F15_FX517_3D\ Rendering\ Photos_1C_Moonlight\ white_light_02.png);
+    
+}
+.product_11_img{
+   
+    background-image: url(/2022\ ASUS\ TUF\ Dash\ F15_FX517_3D\ Rendering\ Photos_1C_Moonlight\ white_light_02.png);
+    
+}
+.product_12_img{
+   
+    background-image: url(/02_G_18_L.png);
+    
+}
+
+
+
+#background_img{
+    background-size: cover;
+    width: 265px;
+    height: 192px;
+}
+.product_1_new{
+    margin-top: 30px;
+}
+.product_1_name_and_price{
+    display: flex;
+    justify-content: space-between;
+}
+.product_1_new_text{
+    color: white;
+}
+.product_1_name_text{
+    color: white;
+}
+.product_1_name_text:hover{
+    color: #75b400;
+}
+.product_price_text{
+    color: white;
+}
+.product_1_marka_text{
+    color: white;
+}
+.product_button{
+    text-align: center;
+}
+.buttond_div{
+    position: absolute;
+}
+
+.product_button:hover::after{
+    left: 50px;
+}
+.button_div_2_text::after{
+content: "Hamisi";
+position: absolute;
+text-align: center;
+}
+
+.btn{
+    
+    position: relative;
+    background-color: #75b400; 
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;  
+    border: none;
+    display: inline-block;
+    text-align: center;
+  overflow: hidden;
+    
+}
+
+.btn.test-completed::after,
+.btn.test-completed::before{
+    content: "Hamısı";
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    transition: all 400ms;
+    left: 0;
+    line-height: 2.5;
+}
+.btn.btn.test-completed:hover::after{
+    
+    left: -90px;
+}
+
+.btn.test-completed::before{
+    content: "\f30a";
+    font-weight: 900;
+left: 100px;
+
+}
+.btn.btn.test-completed:hover::before{
+    left:0;
+}
+
+.section_4{
+    background-color: #101010;
+    padding-bottom: 100px;
+}
+
+.slider_2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+#slider_2_img_container{
+    width: 200px;
+    height: 200px;
+    
+    margin-left: 30px;
+    border-radius: 50%;
+}
+#slider_2_img_container img{
+    object-fit: cover;
+    background-size: cover;
+}
+.section_4_brends_div{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section_4_brends{
+    color: white;
+}
+
+.slider_2_img_container_1{
+    background-image: url(/logo-1.png);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+.slider_2_img_container_2{
+    background-image: url(/logo-2.png);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+#carouselExampleInterval{display: flex;}
+#sliderr{display: flex;}
+
+.new_product{
+    background-color: #101010;
+
+}
+.new_product_new{
+    color: white;
+    text-align: center;
+}
+.premium_product{
+    padding-top: 50px;
+}
+.bottom{
+    padding-bottom: 70px;
+}
+
+.footer{
+    background-color: #1d1d1d;
+    height: 500px;
+}
+.footer_div{
+    width: 80%;
+    text-align: center;
+    margin-left: 100px;
+}
+.footer_navbar_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.footer_left_logo{
+    padding-top: 20px;
+    width: 230px;
+    height: 70px;
+}
+.footer_right{
+    display: flex;
+    padding-top: 20px;
+    
+}
+.footer_hr_1{
+    width: 100%;
+    height: 5px;
+    color: grey;
+}
+.social_media{
+    width: 50px;
+    height: 50px;
+    background-color: #75b400;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.bi{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.footer_navbar_2{
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.footer_navbar_2 li{
+    font-size: 13px;
+    color: grey;
+}
+.footer_navbar_2 li:hover{
+    color: #75b400;
+    cursor: pointer;
+}
+.footer_navbar_3_logo{
+    padding-top: 20px;
+    width: 230px;
+    height: 70px;   
+}
+.footer_navbar_3{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_navbar_4{
+    display: flex;
+}
+.powered{
+    color: white;
+    padding-top: 45px;
+    padding-right: 25px;
+}
+.powered:hover{
+    color:#75b400;
+    cursor: pointer;
+}
+.footer_navbar_3_text{
+    color: white;
+    padding-top: 40px;
+    font-size: 15px;
+    
+}
+
+.diver{
+    width: 100px;
+    height: 1px;
+    
+}
+
+.left_1{
+    width: 30%;
+    height: 8px;
+    color: grey;
+    margin-left: 160px;
+    margin-top: -20px;
+    padding-bottom: 3px;
+}
+.left_2{
+    width: 30%;
+    height: 8px;
+    color: grey;
+    margin-left: 920px;
+    margin-top: -20px;
+    padding-bottom: 3px;
+}
+
+.left_3{
+    width: 30%;
+    height: 8px;
+    color: grey;
+    margin-left: 160px;
+    margin-top: -66px;
+    padding-bottom: 3px;
+}
+.left_4{
+    width: 30%;
+    height: 8px;
+    color: grey;
+    margin-left: 920px;
+    margin-top: -20px;
+    padding-bottom: 3px;
+}
+
+.left_5{
+    width: 30%;
+    height: 8px;
+    color: grey;
+    margin-left: 160px;
+    margin-top: -20px;
+    padding-bottom: 3px;
+}
+.left_6{
+    width: 30%;
+    height: 8px;
+    color: grey;
+    margin-left: 920px;
+    margin-top: -20px;
+    padding-bottom: 3px;
+}
+.left_7{
+    width: 30%;
+    height: 8px;
+    color: grey;
+    margin-left: 160px;
+    margin-top: -20px;
+    padding-bottom: 3px;
+}
+.left_8{
+    width: 30%;
+    height: 8px;
+    color: grey;
+    margin-left: 920px;
+    margin-top: -20px;
+    padding-bottom: 3px;
+}
